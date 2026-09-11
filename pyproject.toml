@@ -1,0 +1,44 @@
+[project]
+name = "recomet"
+version = "0.1.0"
+description = "Open-source, self-hosted, domain-agnostic recommendation engine with a REST API."
+readme = "README.md"
+requires-python = ">=3.13"
+license = "Apache-2.0"
+license-files = ["LICENSE"]
+authors = [
+    { name = "Blankscreen-exe", email = "mhammad.hassan002@gmail.com" },
+]
+keywords = [
+    "recommendation-engine",
+    "recommender-system",
+    "recommendations",
+    "machine-learning",
+    "collaborative-filtering",
+    "fastapi",
+    "self-hosted",
+]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Environment :: Web Environment",
+    "Framework :: FastAPI",
+    "Intended Audience :: Developers",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: 3.13",
+    "Topic :: Internet :: WWW/HTTP :: HTTP Servers",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    "Typing :: Typed",
+]
+dependencies = []
+
+[project.urls]
+Homepage = "https://github.com/Blankscreen-exe/Recomet"
+Repository = "https://github.com/Blankscreen-exe/Recomet"
+Issues = "https://github.com/Blankscreen-exe/Recomet/issues"
+Documentation = "https://github.com/Blankscreen-exe/Recomet/tree/main/docs"
+
+[build-system]
+requires = ["uv_build>=0.11.6,<0.12.0"]
+build-backend = "uv_build"
