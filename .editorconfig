@@ -15,6 +15,8 @@ indent_size = 4
 indent_size = 2
 
 [*.md]
-indent_size = 2
+# List continuation lines align with the text after the marker ("1. " is 3 characters),
+# so Markdown indentation is not a multiple of any fixed size.
+indent_size = unset
 # Two trailing spaces are a hard line break in Markdown.
 trim_trailing_whitespace = false

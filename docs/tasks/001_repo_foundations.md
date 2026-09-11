@@ -68,8 +68,10 @@ In PowerShell, call `curl.exe` explicitly — plain `curl` is an alias for `Invo
   > A script with CRLF line endings fails there with a baffling "no such file or directory" error,
   > and diffs fill with invisible line-ending changes.
 
-- **`.editorconfig`** — UTF-8, LF, final newline, trim trailing whitespace; 4-space indent for
-  Python; 2-space for YAML, TOML, JSON and Markdown.
+- **`.editorconfig`** — UTF-8, LF, final newline, trim trailing whitespace; 4-space indent by
+  default (Python, TOML — matching `pyproject.toml`); 2-space for YAML, JSON, HTML/Jinja, CSS and
+  JS. Markdown is the exception: keep trailing whitespace (two spaces are a line break) and don't
+  fix an indent size, because list continuation lines align with the text after the marker.
 
 ## 1.6 Verify and commit
 
